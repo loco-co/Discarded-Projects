@@ -1,8 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import Loading from './loading'
+import * as Location from 'expo-location'
 
-export default function App() {
-  return <Loading />;
+export default class App extends React.Component {
+  render(){
+    return <Loading />;
+  }
 }
